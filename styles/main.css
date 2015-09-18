@@ -1,0 +1,107 @@
+/* CURRENTLY IN: styles/main.css */
+
+material.black.min.css
+
+
+.info {
+	float: left;
+	border: 1px solid #021a40;
+}
+
+
+.mdl-layout__header-row {
+	background-color: rgb(146, 108, 175);
+}
+
+.logo {
+	height: auto;
+	width: 100%;
+}
+
+.mdl-layout__drawer {
+	background-color: white;
+	border-right: 1px solid;
+}
+
+.mdl-layout__drawer .mdl-navigation {
+	padding-top: 0rem;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+	padding: 25px 40px 4px 40px;
+}
+
+.mdl-layout__content {
+	background-color: rgb(244, 168, 60);
+}
+
+.mdl-layout__drawer-button {
+	background-color: rgb(146, 108, 175);
+}
+
+.material-icons {
+	background-color: rgb(146, 108, 175);
+}
+
+.mdl-layout__header {
+	background-color: rgb(146, 108, 175);
+}
+
+.links {
+	background-color: white;
+	padding: 1rem;
+	margin: 1rem 6rem;
+	border-radius: .5rem;
+	border: 1px solid black;
+}
+
+.sidebar {
+	text-align: center;
+	margin: 1.5rem 0rem .2rem 0rem;
+	font-family: "Raleway", Times, serif;
+	font-size: 1.25rem;
+	color: black;
+	position: center;
+}
+
+.profile {
+	height: auto;
+	width: 46.5%;
+	border-radius: 10rem;
+	border: 4px solid rgb(146, 108, 175);
+}
+
+.profilename {
+	font-family: "Raleway", Times, serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.summary {
+	width: 75%;
+	margin: 0rem;
+	display: inline-block;
+}
+
+.mdl-button--fab.mdl-button--colored {
+	background-color: rgb(146, 108, 175);
+	color: white;
+	margin: 0rem 1rem 0rem 0rem;
+}
+
+.tags {
+	float: right;
+	padding: 2px 6px;
+	border: 1px solid black;
+	margin: 4px;
+	border-radius: .5rem;
+	color: white;
+	background-color: rgb(127, 191, 233);
+	font-weight: bold;
+	font-family: "Raleway", Times, serif;
+}
+
+
+
