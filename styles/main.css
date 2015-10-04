@@ -1,7 +1,11 @@
 /* CURRENTLY IN: styles/main.css */
 
-material.black.min.css
+/*material.black.min.css*/
 
+body{
+	height: 100%;
+	width: 100%;
+}
 
 .info {
 	float: left;
@@ -33,6 +37,10 @@ material.black.min.css
 
 .mdl-layout__content {
 	background-color: rgb(244, 168, 60);
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+
 }
 
 .mdl-layout__drawer-button {
@@ -102,6 +110,37 @@ material.black.min.css
 	font-weight: bold;
 	font-family: "Raleway", Times, serif;
 }
+
+.page-content-overflow {
+	overflow: hidden;
+
+}
+
+.profile__title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.remove_dec {
+	list-style-type: none;
+}
+
+.billtest {
+	background color: black;
+}
+
+/* draggable elements */
+
+.links.ui-draggable.ui-draggable-handle {
+	width: 200px;
+}
+
+
+
+
+
+
+
 
 
 
