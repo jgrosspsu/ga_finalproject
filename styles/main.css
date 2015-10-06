@@ -58,9 +58,11 @@ body{
 .links {
 	background-color: white;
 	padding: 1rem;
-	margin: 1rem 6rem;
+	margin: 15px 40px;
 	border-radius: .5rem;
 	border: 1px solid black;
+	float: left;
+	height: 100px;
 }
 
 .sidebar {
@@ -132,15 +134,22 @@ body{
 /* draggable elements */
 
 .links.ui-draggable.ui-draggable-handle {
-	width: 200px;
+	width: 250px;
 }
 
 
+.twitter {
+	height: 35.25px;
+	width: 41.25px;
+}
 
+.mdl-layout__content {
+	height: 100%;
+}
 
-
-
-
-
+a {
+	color: rgb(146, 108, 175);
+	font-weight: bold;
+}
 
 
